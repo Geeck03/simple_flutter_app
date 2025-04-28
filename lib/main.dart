@@ -68,12 +68,6 @@ class HomeScreen extends StatelessWidget {
             icon: const Icon(Icons.brightness_6),
             onPressed: () {
               toggleTheme();
-              /*
-              if (toggleTheme != null) {
-                // Check if toggleTheme is not null
-                toggleTheme(); // Call the toggleTheme function when the button is pressed
-              }
-              */
             },
           ),
         ],
@@ -112,7 +106,7 @@ class ProfileScreen extends StatelessWidget {
             CircleAvatar(
               radius: 50,
               backgroundImage: NetworkImage(
-                'https://example.com/profile.jpg', // Replace with your image URL
+                'https://example.com/profile.jpg', // Replace with batman image 
               ),
             ),
             const SizedBox(height: 20),
