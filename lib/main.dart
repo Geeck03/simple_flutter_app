@@ -6,8 +6,7 @@ void main() {
 
 class MyApp extends StatefulWidget {
   const MyApp({super.key});
-
-  @override
+  
   @override
   MyAppState createState() => MyAppState();
 }
@@ -117,8 +116,8 @@ class ProfileScreen extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 20),
-            Text('Sir Man'), // User name
-            Text('Software Engineer'), // Desigination
+            Text('Batman'), // User name
+            Text('Defender of Gotham | Has 0 friends'), // Desigination
             ElevatedButton(
               onPressed: () {
                 Navigator.pop(context); // Go back to the previous screen
